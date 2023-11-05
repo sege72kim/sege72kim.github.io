@@ -1,0 +1,26 @@
+H1 { 
+color: red;
+font-size: 240%;
+font-family: Bookman, URW Bookman L, serif;
+text-align: center;
+}
+P {
+font-size: 90%;
+font-family: Arial, sans-serif;
+font-variant: small-caps;
+text-align: center;
+}
+H2 {
+font-size: 240%;
+font-family: fantasy;
+font-variant: small-caps;
+font-weight: lighter;
+text-align: center;
+}
+H3
+{
+text-align: center;
+}
+body{
+   background-color: #c5e3f0;
+}
