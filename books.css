@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+
+}
+
+/* Общие стили для header */
+.banana {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.main-heading {
+  background-color: #ffffff;
+  font-family: tahoma, sans-serif;
+  margin: 0;
+  font-size: 21px;
+  padding-right: 250px;;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+nav ul li a:hover{
+  color: rgb(163, 13, 13);
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: lighter;
+  transition: color .2s linear;
+}
+
+ul {
+  background-color: #ffffff;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 0 100px;
+}
+/* Стили для блока с вступлением */
+.container1 {
+  padding-top: 78px;
+  position: relative;
+  text-align: center;
+}
+
+.opentxt2 {
+  font-family: Arial Narrow, sans-serif;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(233, 233, 233);
+  font-size: 66px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.opentxt3 {
+  font-family: Courier New, monospace;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(233, 233, 233);
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: lighter;
+  max-width: 600px;
+}
+.opening {
+  image-rendering: crisp-edges;
+  position: center;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+
+.korobka{
+  padding-right:400px;
+  max-width: 900px;
+  align-items: center; 
+  justify-content: flex-start; 
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.title{
+  font-size: 40px;
+  color: black;
+  font-family: Arial Narrow, sans-serif;
+  font-weight: bold;
+  padding-top:40px;
+}
+.titlemini{
+  font-size: 25px;
+  color: rgb(65, 65, 65);
+}
+
+
+.links{
+  width: 500px;
+  border: 1px solid #000;
+  padding-left: 50px;
+}
+.links a{
+  text-decoration: none;
+  color: #333; 
+  font-size: 18px; 
+}
+
+.links a:hover{
+  color: #ff0000;
+}
+.gram{
+  padding-left: 30px;
+  padding-top: 15x;
+}
